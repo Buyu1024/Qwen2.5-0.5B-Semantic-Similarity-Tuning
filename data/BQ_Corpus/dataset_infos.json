@@ -1,0 +1,1 @@
+{"default":{"features":{"sentence1":{"_type":"Value"},"sentence2":{"_type":"Value"},"label":{"_type":"Value"},"dataset":{"_type":"Value"}},"splits":{"validation":{"name":"validation","dataset_name":"BQ_Corpus"},"train":{"name":"train","dataset_name":"BQ_Corpus"}}}}

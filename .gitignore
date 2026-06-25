@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 模型权重（太大，不上传 Git）
+model.safetensors
+*.safetensors
+models/*/.cache/
+
+# 数据盘（BQ Corpus 是 git submodule）
+data/*/.git/
+
+# 输出目录
+outputs/
+logs/
+
+# 打包文件
+*.tar.gz
+*.zip
+
+# UV lock（环境快照，不必须）
+uv.lock
+.python-version
